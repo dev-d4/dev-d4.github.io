@@ -338,6 +338,7 @@ main {
 
 .avatar-box img {
   margin-top: 100px; /* Adjust the margin value to move the image further down */
+  width: 200px;
 }
 
 .info-content .name {
