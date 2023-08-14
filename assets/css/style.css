@@ -1289,7 +1289,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 700px;
+    width: 1200px;
     margin-inline: auto;
     padding: 30px;
   }
