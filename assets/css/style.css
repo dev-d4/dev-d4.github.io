@@ -1334,7 +1334,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar {
     max-height: 180px;
-    width: 2000;
     margin-bottom: 30px;
   }
 
@@ -1344,10 +1343,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { 
-    width: 120px; 
-    margin-top: 100 px;
-  }
+  .avatar-box img { width: 120px; }
 
   .info-content .name { margin-bottom: 15px; }
 
