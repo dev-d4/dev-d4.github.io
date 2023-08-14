@@ -335,7 +335,10 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
-  margin-top: 200px;
+}
+
+.avatar-box img {
+  margin-top: 100px; /* Adjust the margin value to move the image further down */
 }
 
 .info-content .name {
