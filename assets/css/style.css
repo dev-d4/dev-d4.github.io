@@ -795,6 +795,10 @@ main {
   margin-bottom: 7px;
 }
 
+.non-bold {
+  font-weight: normal;
+}
+
 .timeline-list span {
   color: var(--vegas-gold);
   font-weight: var(--fw-400);
@@ -1339,7 +1343,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { 
+    width: 120px; 
+    margin-top: 50 px;
+  }
 
   .info-content .name { margin-bottom: 15px; }
 
