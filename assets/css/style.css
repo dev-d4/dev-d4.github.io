@@ -338,7 +338,7 @@ main {
 }
 
 .avatar-box img {
-  margin-top: 100px; /* Adjust the margin value to move the image further down */
+  margin-top: 20px; /* Adjust the margin value to move the image further down */
 }
 
 .info-content .name {
