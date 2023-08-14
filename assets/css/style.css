@@ -336,6 +336,10 @@ main {
   border-radius: 20px;
 }
 
+.avatar-box img {
+  margin-top: 50px; /* Adjust the margin value to move the image further down */
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
