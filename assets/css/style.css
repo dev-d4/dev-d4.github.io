@@ -315,6 +315,7 @@ main {
 \*-----------------------------------*/
 
 .sidebar {
+  width: 1000px;
   margin-bottom: 15px;
   max-height: 112px;
   overflow: hidden;
@@ -324,7 +325,6 @@ main {
 .sidebar.active { max-height: 405px; }
 
 .sidebar-info {
-  width: 500px;
   position: relative;
   display: flex;
   justify-content: flex-start;
