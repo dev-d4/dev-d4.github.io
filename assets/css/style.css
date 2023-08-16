@@ -795,6 +795,11 @@ main {
   margin-bottom: 7px;
 }
 
+.timeline-title-container {
+  display: flex; /* Use flexbox to keep elements on the same line */
+  align-items: baseline; /* Align the text baseline to avoid alignment issues */
+}
+
 .non-bold {
   font-size: var(--fs-6);
   line-height: 1.3;
