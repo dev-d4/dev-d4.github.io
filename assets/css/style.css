@@ -801,7 +801,7 @@ main {
   margin-bottom: 7px;
   font-weight: lighter; /* Adjust the font-weight as needed */
 }
-.timeline-list span {
+.timeline-list-gold {
   color: var(--vegas-gold);
   font-weight: var(--fw-400);
   line-height: 1.6;
