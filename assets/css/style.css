@@ -796,9 +796,8 @@ main {
 }
 
 .non-bold {
-  font-weight: normal;
+  font-weight: lighter; /* Adjust the font-weight as needed */
 }
-
 .timeline-list span {
   color: var(--vegas-gold);
   font-weight: var(--fw-400);
