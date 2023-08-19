@@ -1,6 +1,33 @@
 'use strict';
 
 
+// for portfolio modal
+document.addEventListener("DOMContentLoaded", function() {
+  const modal = document.getElementById("projectModal");
+  const modalImage = document.getElementById("modalImage");
+  const openModalIcons = document.querySelectorAll(".open-modal");
+  const closeModal = document.getElementById("closeModal");
+
+  openModalIcons.forEach(icon => {
+    icon.addEventListener("click", function(event) {
+      event.preventDefault();
+      const projectImageSrc = this.closest(".project-item").querySelector("img").src;
+      modalImage.src = projectImageSrc;
+      modal.style.display = "block";
+    });
+  });
+
+  closeModal.addEventListener("click", function() {
+    modal.style.display = "none";
+  });
+
+  window.addEventListener("click", function(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+});
+
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
@@ -13,8 +40,6 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
-
-
 
 // testimonials variables
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
