@@ -891,7 +891,7 @@ main {
 \*-----------------------------------*/
 
 /* Modal */
-.modal {
+/* .modal {
   display: none;
   position: fixed;
   z-index: 999;
@@ -917,7 +917,7 @@ main {
   right: 10px;
   font-size: 24px;
   cursor: pointer;
-}
+} */
 
 
 .filter-list { display: none; }
@@ -979,7 +979,7 @@ main {
 
 .project-list {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   margin-bottom: 10px;
 }
