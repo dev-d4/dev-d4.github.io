@@ -2,6 +2,37 @@
 
 
 
+
+// Get all project items
+const projectItems = document.querySelectorAll('.project-item');
+
+// Attach a click event listener to each project item
+projectItems.forEach((item) => {
+    item.addEventListener('click', (event) => {
+        // Prevent the default behavior of the link
+        event.preventDefault();
+
+        // Get the data-modal-target value from the clicked project item
+        const modalTarget = item.getAttribute('data-modal-target');
+
+        // Show the modal with the corresponding ID
+        const modal = document.getElementById(modalTarget);
+        if (modal) {
+            modal.classList.add('show');
+        }
+    });
+});
+
+// Close modal when clicking outside the content
+document.addEventListener('click', (event) => {
+    if (event.target.classList.contains('modal')) {
+        event.target.classList.remove('show');
+    }
+});
+
+
+
+
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
