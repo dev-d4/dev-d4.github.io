@@ -915,6 +915,17 @@ main {
   text-align: center;
 }
 
+.modal-title {
+  margin-top: 20px; /* Adjust the margin to move the title higher */
+  font-size: 24px; /* Optional: adjust font size if needed */
+}
+
+.modal-subtext {
+  color: var(--light-gray); /* Adjust subtext color */
+  font-size: 18px; /* Optional: adjust subtext font size */
+  margin-top: 10px; /* Adjust margin for spacing between title and subtext */
+}
+
 .modal.show {
   display: flex;
 }
