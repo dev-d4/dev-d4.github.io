@@ -905,30 +905,30 @@ main {
 }
 
 .modal-content {
-  background-color: var(--eerie-black-2); /* Change background color to black */
-  color: white; /* Change font color to white */
-  padding: 100px; /* Increase padding for bigger modal box */
-  border-radius: 10px;
+  background-color: var(--eerie-black-2);
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  max-width: 600px; /* Set a maximum width for the modal */
-  width: 100%; /* Set the width of the modal */
-  text-align: center;
+  max-width: 500px;
+  width: 100%;
 }
 
 .modal-title {
-  margin-top: 20px; /* Adjust the margin to move the title higher */
-  font-size: 24px; /* Optional: adjust font size if needed */
+  font-size: 22px;
+  margin: 0;
 }
 
 .modal-subtext {
-  color: var(--light-gray); /* Adjust subtext color */
-  font-size: 18px; /* Optional: adjust subtext font size */
-  margin-top: 10px; /* Adjust margin for spacing between title and subtext */
+  color: var(--light-gray);
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 .modal.show {
   display: flex;
 }
+
 
 
 
