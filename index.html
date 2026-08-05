@@ -1,726 +1,263 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S7ZKND4K5W"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-S7ZKND4K5W');
-</script>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daniel Karoumi</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Karoumi — Quantitative Engineer</title>
+<meta name="description" content="Daniel Karoumi — quantitative engineer building production risk models in Python. KTH Engineering Physics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!--
-    - #MAIN
-  -->
+<header class="site-header">
+  <div class="wrap">
+    <a href="#top" class="brand">DK / stockholm</a>
+    <nav class="primary-nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <main>
+<main id="top">
 
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/memoji.png" alt="Daniel" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Daniel Karoumi">Daniel Karoumi</h1>
-
-          <p class="title">Software Engineer</p>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Quantitative Engineer — Stockholm</p>
+        <h1>Daniel Karoumi</h1>
+        <p class="thesis">I build the risk models banks run on — from the math to the production code.</p>
+        <p class="lede">M.Sc. Engineering Physics, KTH. Close to three years owning a production risk model — end to end, from methodology to the Python running in production — at a regulated securities firm.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:danielkaroumi5@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/daniel-k-aabb51263/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
       </div>
 
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:danielkaroumi5@gmail.com" class="contact-link">danielkaroumi5@gmail.com</a>
-            </div>
-
-          </li>
-
-
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Stockholm, Sweden</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-        
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/daniel-k-aabb51263/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-        
-        </ul>
-        
-        </div>        
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I am a recent graduate with a strong drive and curiosity. 
-            My interests lie in the fields of Artificial Intelligence (AI), life science, and software development where my 
-            aim is to craft innovative solutions that enhance people's quality of life. 
-            I believe that through dedication and creativity, 
-            I can make a meaningful impact and drive positive change.
-          </p>
-
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">My Passions</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-programming.svg
-                " alt="design icon" width="55">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Software Development</h4>
-
-                <p class="service-item-text">
-                  From developing extensions for applictions to iOS apps.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-bar.svg" alt="Web development icon" width="55">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Machine Learning</h4>
-
-                <p class="service-item-text">
-                  Fascinated by the ability of algorithms to learn and improve from data. From image recognition to predictive models.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-DNA.svg" alt="mobile app icon" width="55">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Life Science</h4>
-
-                <p class="service-item-text">
-                  Learning and staying updated on the new technology concering life science.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-camera.svg" alt="camera icon" width="55">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Graphic design</h4>
-
-                <p class="service-item-text">
-                  I frequently wield the creative power of Photoshop to bring my ideas to life through visual compositions.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-      
-
-
-        <!--
-          - testimonials modal
-        -->
-
-
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <div class="timeline-title-container">
-                <h4 class="h4 timeline-item-title">Karolinska University Hospital </h4>
-                <span class="h4 non-bold"> - Algorithm developer</span>
-              </div>
-
-              <span class ="timeline-list-gold">Jun 2023 — Present</span>
-
-              <p class="timeline-text">
-                Development of Machine learning algorithms/models for classifying pulmonary diseases and 
-                quantifying pathological changes through pulmonary vascular branches.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <div class="timeline-title-container">
-                <h4 class="h4 timeline-item-title">Karolinska University Hospital </h4>
-                <span class="h4 non-bold"> - Master Thesis</span>
-              </div>
-
-              <span class ="timeline-list-gold">Jan 2023 — Jun 2023</span>
-
-              <p class="timeline-text">
-                Development of algorithms for lung segmentation, position determination of pathological changes 
-                through pulmonary vascular branches and quantify lung morphology.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <div class="timeline-title-container">
-                <h4 class="h4 timeline-item-title">KTH (Royal Institute of Technology) </h4>
-                <span class="h4 non-bold"> - Amanuens</span>
-              </div>
-
-              <span class ="timeline-list-gold">2022 — 2023</span>
-
-              <p class="timeline-text">
-                Work at KTH where I perform administrative duties such as publications of students' degree theses, 
-                design of virtual course rooms and more.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-              
-              <div class="timeline-title-container">
-                <h4 class="h4 timeline-item-title">Check Health</h4>
-                <span class="h4 non-bold"> - Bachelor Thesis</span>
-              </div>
-
-              <span class ="timeline-list-gold">Mar 2021 — Jun 2021</span>
-
-              <p class="timeline-text">
-                Continuing on my previous work at Check Health (see more below). The task was to transfer medical 
-                values from the user's mobile to Check Health's cloud service. The work required knowledge of the 
-                regulation FHIR as well as JSON, Bluetooth and more 
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <div class="timeline-title-container">
-                <h4 class="h4 timeline-item-title">Check Health</h4>
-                <span class="h4 non-bold"> - Developer</span>
-              </div>
-
-
-              <span class ="timeline-list-gold">Jun 2020 — Aug 2020</span>
-
-              <p class="timeline-text">
-                A 2-month job at Cnet Svenska AB's subsidiary Check Health. My task there was to create a simple 
-                application that transferred values from a glucose meter to the user's smartphone. The work required 
-                knowledge of APls, user interface and more.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <div class="timeline-title-container">
-                <h4 class="h4 timeline-item-title">KTH (Royal Institute of Technology)</h4>
-                <span class="h4 non-bold"> - Degree Of Master Of Science In Engineering At Stockholm</span>
-              </div>
-
-              <span class ="timeline-list-gold">Aug 2018 — Jun 2023</span>
-
-              <p class="timeline-text">
-                Bachelor's degree in Medical Engineering and Master's degree in Engineering Physics 
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <div class="timeline-title-container">
-                <h4 class="h4 timeline-item-title">Tullinge Gymnasium</h4>
-                <span class="h4 non-bold"> - Upper secondary school at Stockholm</span>
-              </div>
-
-              <span class ="timeline-list-gold">2015 - 2018</span>
-
-              <p class="timeline-text">
-                Three-year science education
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Driven and easy learner</h5>
-                <data value="100">100%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Problem solving</h5>
-                <data value="100">100%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Programming (Python, Matlab, JavaScript, SQL)</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Machine Learning (Tensorflow, PyTorch)</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Health and life-science</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <!-- <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul> -->
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="blog-posts-list">
-
-            <!-- <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Machine Learning</h3>
-
-                <p class="project-category">Data Engineering</p>
-
-              </a>
-            </li> -->
-
-            <li class="project-item  active" data-filter-item data-category="web development" data-modal-target="master-thesis-modal">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/MEX-jobb.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Master Thesis</h3>
-
-                <p class="project-category">Software Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development" data-modal-target="bachelor-thesis-modal">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/KEX-jobb.png" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Bachelor Thesis and Development</h3>
-
-                <p class="project-category">Software Development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-          <div id="master-thesis-modal" class="modal">
-            <div class="modal-content">
-              <h3 class="modal-title">Master Thesis</h3>
-              <p class="modal-subtext">
-                During this project, I gained valuable skills in Python programming and advanced image analysis techniques by developing two user-friendly
-                extensions for the medical image analysis software, 3D Slicer, to streamline lung analysis.
-              </p>
-                
-              <p class="modal-subtext">
-                The first algorithm developed provides a comprehensive and entirely automated segmentation of the patients' 
-                lung, thereby serving as a valuable assistance tool for radiologists.
-              </p>
-                
-              <p class="modal-subtext">
-                The second algorithm delves into the realm of lung vessel tree morphometry, 
-                providing an in-depth analysis of morphological changes within the pulmonary anatomy. 
-                This is achieved through mapping and calculations of various metrics associated with the lung vessel tree.
-              </p>
-            </div>
-          </div>
-          
-          <div id="bachelor-thesis-modal" class="modal">
-            <div class="modal-content">
-              <h3 class="modal-title">Bachelor Thesis</h3>
-              <p class="modal-subtext">
-                An app developed which was further built during my Bachelor thesis. The goal was to build an iOS application
-                and integrate it with a glucose meter via Bluetooth Low Energy.
-              </p>
-                
-              <p class="modal-subtext">
-                Over time, I expanded the app's functionality to allow users to
-                transfer information from their phone to a cloud server where data could be stored and viewed.
-              </p>
-                
-              <p class="modal-subtext">
-                This meant that users could take glucose readings on the meter, send them to their phones, 
-                and then upload them to the cloud server for easy access and analysis.
-              </p>
-            </div>
-          </div>
-
-          
-
-        </section>
-
-      </article>
-
+      <div class="curve-panel" role="img" aria-label="Illustration of a risk distribution curve with a highlighted tail risk region">
+        <div class="curve-label"><span>Loss distribution</span><span>illustrative</span></div>
+        <svg viewBox="0 0 320 160" width="100%" height="auto">
+          <line x1="12" y1="130" x2="308" y2="130" stroke="#DEDAD1" stroke-width="1"/>
+          <path class="curve-fill" d="M215,95 C240,124 260,129 308,130 L308,130 L215,130 Z" opacity="0"/>
+          <path class="curve-path" d="M12,130 C60,130 70,40 120,32 C160,26 190,60 215,95 C240,124 260,129 308,130" />
+          <g class="curve-marker">
+            <line x1="222" y1="30" x2="222" y2="130" stroke="#B8502E" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="222" cy="91" r="3.5"/>
+          </g>
+        </svg>
+        <div class="curve-caption"><span>expected loss</span><strong>99.5th pct. tail →</strong></div>
+      </div>
     </div>
+  </section>
 
-  </main>
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">01 — About</span>
+        <h2 class="section-title">Where modelling meets production code</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="about-text reveal">
+          <p>I'm a quantitative-minded engineer with a <strong>Master's degree in Engineering Physics from KTH</strong>. For close to three years I've owned a production risk model at a regulated securities firm — from the mathematical methodology to the Python code that runs it, continuously, for tens of thousands of clients.</p>
+          <p>I like being close to both ends of that chain: solving the modelling problem, and building the system that makes it real in production. I'm driven and hands-on, I build my own products outside of work, and I use AI as a natural part of how I write and ship code. I work closely with stakeholders across the business and take ownership seriously.</p>
 
+          <div class="facts">
+            <div class="fact"><span class="num">~3 yrs</span><span class="label">owning a production risk model, methodology to code</span></div>
+            <div class="fact"><span class="num">10,000s</span><span class="label">client risk profiles calculated continuously</span></div>
+            <div class="fact"><span class="num">10B+</span><span class="label">SEK in assets on systems I own end-to-end</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">02 — Experience</span>
+        <h2 class="section-title">What I've built</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="timeline reveal">
 
+          <div class="role">
+            <div class="when">Nov 2023 — Present</div>
+            <div>
+              <p class="who">Product Developer &amp; System Specialist <span>· Säkra AB</span></p>
+              <ul>
+                <li><strong>Risk model.</strong> Sole owner of the company's client risk model, from quantitative methodology to production code: designed the model logic, implemented it in Python, connected it to a SQL database and deployed it on Azure. Runs continuously, calculating risk profiles for tens of thousands of clients, with output used directly across the business.</li>
+                <li><strong>Data pipelines.</strong> Built automated data workflows in Python and Pandas that replaced manual work across fee management and financial reporting.</li>
+                <li><strong>System ownership.</strong> End-to-end responsible for a business-critical custody and asset management platform holding over SEK 10 billion in client assets.</li>
+                <li><strong>Stakeholder collaboration.</strong> Works closely with business, compliance and external vendors to translate needs into technical requirements, acting as the main point of contact through delivery.</li>
+                <li><strong>Regulatory.</strong> Contributed to DORA compliance and a core system migration in an environment governed by KYC, AML and Finansinspektionen.</li>
+              </ul>
+            </div>
+          </div>
 
+          <div class="role compact">
+            <div class="when">Jun — Nov 2023</div>
+            <div>
+              <p class="who">Machine Learning Research Engineer <span>· Karolinska University Hospital</span></p>
+              <ul>
+                <li>Built machine learning models and analytical pipelines from raw medical imaging data to validated results, for classification of pulmonary disease.</li>
+              </ul>
+            </div>
+          </div>
 
+          <div class="role compact">
+            <div class="when">Jan — Jun 2023</div>
+            <div>
+              <p class="who">Master's Thesis <span>· Karolinska University Hospital</span></p>
+              <ul>
+                <li>Developed algorithms for lung segmentation and quantitative analysis of pulmonary vessel morphology, using advanced mathematical methods.</li>
+              </ul>
+            </div>
+          </div>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+          <div class="role compact">
+            <div class="when">2020 — 2021</div>
+            <div>
+              <p class="who">Developer &amp; Bachelor's Thesis <span>· CheckHealth (Cnet Svenska AB)</span></p>
+              <ul>
+                <li>Built an iOS app transferring glucose readings from a connected meter to the cloud via Bluetooth, in line with the FHIR standard for secure health data transfer.</li>
+              </ul>
+            </div>
+          </div>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="education">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">03 — Education</span>
+        <h2 class="section-title">KTH Royal Institute of Technology</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="edu-card reveal">
+          <div class="when">2018 — 2023</div>
+          <div>
+            <p class="who">M.Sc. Engineering Physics · B.Sc. Medical Engineering</p>
+            <p class="where">Five years, Stockholm.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">04 — Skills</span>
+        <h2 class="section-title">What I work with</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="skill-groups reveal">
+          <div class="skill-group">
+            <h4>Quantitative</h4>
+            <div class="tags">
+              <span class="tag">Mathematical &amp; statistical modelling</span>
+              <span class="tag">Risk modelling</span>
+              <span class="tag">Probability</span>
+              <span class="tag">Numerical methods</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Software</h4>
+            <div class="tags">
+              <span class="tag">Python (production)</span>
+              <span class="tag">Code architecture</span>
+              <span class="tag">Git</span>
+              <span class="tag">Testing</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Azure</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Domain</h4>
+            <div class="tags">
+              <span class="tag risk">Regulated financial environments</span>
+              <span class="tag risk">DORA</span>
+              <span class="tag risk">KYC</span>
+              <span class="tag risk">AML</span>
+              <span class="tag risk">Custody operations</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Licences</h4>
+            <div class="tags"><span class="tag">SwedSec Specialist (ongoing)</span></div>
+          </div>
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <div class="tags">
+              <span class="tag">Swedish — native</span>
+              <span class="tag">English — professional fluency</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">05 — Projects</span>
+        <h2 class="section-title">Built on my own time</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="project-card reveal">
+          <div>
+            <p class="tag-line">Founder &amp; developer — ongoing</p>
+            <h3>sharpa.se</h3>
+            <p>A fund analysis platform I designed and built end to end. I designed and built the risk and return calculation engine at its core, covering fees, risk and return metrics across portfolios, plus the data layer and interface around it.</p>
+          </div>
+          <a class="visit" href="https://sharpa.se" target="_blank" rel="noopener">Visit sharpa.se ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">06 — Contact</span>
+        <h2 class="section-title">Get in touch</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="contact-links reveal">
+          <a href="mailto:danielkaroumi5@gmail.com">danielkaroumi5@gmail.com</a>
+          <a href="tel:+46724064003">+46 72-406 40 03</a>
+          <a href="https://www.linkedin.com/in/daniel-k-aabb51263/" target="_blank" rel="noopener">LinkedIn</a>
+          <span style="color: var(--ink-faint); font-size: 16px;">Stockholm, Sweden</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Daniel Karoumi</span>
+    <span>built with intent, not a template</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
-
 </html>
