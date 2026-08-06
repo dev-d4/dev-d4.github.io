@@ -1,5 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="15" fill="#14171c"/>
-  <path d="M17 16v32h11.5C39 48 46 41.5 46 32S39 16 28.5 16H17Zm8 7h3.5c6 0 9.5 3.3 9.5 9s-3.5 9-9.5 9H25V23Z" fill="#f7f6f2"/>
-  <path d="M40 16h7L35 32l13 16h-8L27.5 32 40 16Z" fill="#b8502e" opacity=".95"/>
+  <style>
+    .bg { fill: #14171C; }
+    .fg { fill: #F7F6F2; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #F7F6F2; }
+      .fg { fill: #14171C; }
+    }
+  </style>
+  <circle class="bg" cx="32" cy="32" r="32"/>
+  <text class="fg" x="32" y="33.5" text-anchor="middle" dominant-baseline="central"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="27" font-weight="500" letter-spacing="-1.5">DK</text>
 </svg>
