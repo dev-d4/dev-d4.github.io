@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Inter:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 
@@ -70,11 +70,6 @@
           <div class="model-node active"><span>02</span><strong>Python + SQL</strong><small>tested engine</small></div>
           <div class="flow-line" aria-hidden="true"><i></i></div>
           <div class="model-node"><span>03</span><strong>Production</strong><small>continuous</small></div>
-        </div>
-        <div class="model-output">
-          <span>system output</span>
-          <strong>10,000s</strong>
-          <small>client risk profiles</small>
         </div>
       </div>
     </div>
@@ -258,7 +253,31 @@
           <div class="project-side">
             <div class="product-preview" aria-hidden="true">
               <div class="preview-bar"><i></i><i></i><i></i><span>sharpa.se</span></div>
-              <div class="preview-content"><small>PORTFOLIO OVERVIEW</small><strong>Risk / return</strong><div class="preview-chart"><i></i><i></i><i></i><i></i><i></i></div><div class="preview-metrics"><span>Return <b>12.4%</b></span><span>Risk <b>14.2%</b></span></div></div>
+              <div class="preview-band">
+                <small class="preview-label">Portföljbetyg</small>
+                <div class="preview-score">
+                  <span class="grade">7,0<sub>/10</sub></span>
+                  <span class="preview-gain"><b>+239 kr</b><i>per år, vid 100 000 kr</i></span>
+                </div>
+              </div>
+              <div class="preview-band">
+                <small class="preview-label">Nyckeltal</small>
+                <div class="preview-metrics">
+                  <span><i>Snittavgift</i><b>0,21 %</b></span>
+                  <span><i>Avkastning 3 år</i><b>55,8 %</b></span>
+                  <span><i>Sharpe 3 år</i><b>0,88</b></span>
+                </div>
+              </div>
+              <div class="preview-band">
+                <small class="preview-label">Fördelning</small>
+                <div class="preview-split">
+                  <span class="preview-donut"></span>
+                  <span class="preview-legend">
+                    <span>Aktiefonder<b>72 %</b></span>
+                    <span>Räntefonder<b>28 %</b></span>
+                  </span>
+                </div>
+              </div>
             </div>
             <a class="visit" href="https://sharpa.se" target="_blank" rel="noopener">Visit sharpa.se <span aria-hidden="true">↗</span></a>
           </div>
@@ -293,6 +312,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=2"></script>
+<script src="script.js?v=3"></script>
 </body>
 </html>
