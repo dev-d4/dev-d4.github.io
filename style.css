@@ -498,19 +498,11 @@ section { padding: 64px 0; border-top: 1px solid var(--line-soft); }
 .preview-band + .preview-band { border-top: 1px solid var(--line-soft); }
 .preview-label { display: block; font-family: var(--mono); font-size: 7.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); }
 
-.preview-score { display: flex; align-items: flex-end; justify-content: space-between; gap: 10px; margin-top: 6px; }
-.preview-score .grade { font-family: var(--serif); font-size: 30px; line-height: 1; }
-.preview-score .grade sub { font-size: 13px; color: var(--ink-faint); vertical-align: baseline; }
-.preview-gain { text-align: right; }
-.preview-gain b { display: block; font-family: var(--mono); font-size: 13px; font-weight: 500; color: var(--pos); }
-.preview-gain i { font-style: normal; font-size: 7.5px; color: var(--ink-faint); }
-
-.preview-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 7px; }
-.preview-metrics i { display: block; font-style: normal; font-size: 7.5px; color: var(--ink-faint); }
-.preview-metrics b { font-family: var(--mono); font-size: 12.5px; font-weight: 500; color: var(--ink); }
+.preview-verdict { margin: 0; font-size: 11px; line-height: 1.55; color: var(--ink-soft); }
+.preview-verdict b { font-weight: 500; color: var(--ink); }
 
 .preview-split { display: flex; align-items: center; gap: 12px; margin-top: 8px; }
-.preview-donut { flex: none; width: 44px; height: 44px; border-radius: 50%; background: conic-gradient(var(--signal) 0 72%, var(--risk) 72% 100%); -webkit-mask: radial-gradient(circle, transparent 54%, #000 55%); mask: radial-gradient(circle, transparent 54%, #000 55%); }
+.preview-donut { flex: none; width: 48px; height: 48px; border-radius: 50%; background: conic-gradient(var(--signal) 0 72%, var(--risk) 72% 100%); -webkit-mask: radial-gradient(circle, transparent 49%, #000 50%); mask: radial-gradient(circle, transparent 49%, #000 50%); }
 .preview-legend { flex: 1; display: grid; gap: 4px; }
 .preview-legend span { display: flex; align-items: center; gap: 6px; font-size: 8.5px; color: var(--ink-soft); }
 .preview-legend span::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--signal); }
