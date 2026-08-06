@@ -4,20 +4,40 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Daniel Karoumi — Quantitative Engineer</title>
-<meta name="description" content="Daniel Karoumi — quantitative engineer building production risk models in Python. KTH Engineering Physics.">
+<meta name="description" content="Daniel Karoumi is a quantitative engineer in Stockholm building production risk models and financial systems in Python.">
+<meta name="theme-color" content="#F7F6F2">
+<link rel="canonical" href="https://dev-d4.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Daniel Karoumi — Quantitative Engineer">
+<meta property="og:description" content="Production risk models and financial systems — from mathematical methodology to deployed Python.">
+<meta property="og:url" content="https://dev-d4.github.io/">
+<meta property="og:image" content="https://dev-d4.github.io/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Daniel Karoumi, Quantitative Engineer in Stockholm">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Daniel Karoumi — Quantitative Engineer">
+<meta name="twitter:description" content="Production risk models and financial systems — from methodology to deployed Python.">
+<meta name="twitter:image" content="https://dev-d4.github.io/social-card.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Inter:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<a class="skip-link" href="#main-content">Skip to content</a>
+
 <header class="site-header">
   <div class="wrap">
-    <a href="#top" class="brand">DK / stockholm</a>
-    <nav class="primary-nav">
+    <a href="#top" class="brand" aria-label="Daniel Karoumi, home"><span class="brand-mark">DK</span><span>/ stockholm</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span>Menu</span><span class="menu-icon" aria-hidden="true"></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
@@ -25,33 +45,37 @@
   </div>
 </header>
 
-<main id="top">
+<main id="main-content">
+  <div id="top"></div>
 
   <section class="hero">
     <div class="wrap">
       <div>
         <p class="eyebrow">Quantitative Engineer — Stockholm</p>
         <h1>Daniel Karoumi</h1>
-        <p class="thesis">I build the risk models banks run on — from the math to the production code.</p>
-        <p class="lede">M.Sc. Engineering Physics, KTH. Close to three years owning a production risk model — end to end, from methodology to the Python running in production — at a regulated securities firm.</p>
+        <p class="thesis">I build production risk models for regulated financial services — from mathematical methodology to deployed Python systems.</p>
+        <p class="lede">M.Sc. Engineering Physics, KTH. Since 2023, I have owned a business-critical risk model end to end at a regulated securities firm.</p>
         <div class="cta-row">
           <a class="btn btn-primary" href="mailto:danielkaroumi5@gmail.com">Email me</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/daniel-k-aabb51263/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
 
-      <div class="curve-panel" role="img" aria-label="Illustration of a risk distribution curve with a highlighted tail risk region">
-        <div class="curve-label"><span>Loss distribution</span><span>illustrative</span></div>
-        <svg viewBox="0 0 320 160" width="100%" height="auto">
-          <line x1="12" y1="130" x2="308" y2="130" stroke="#DEDAD1" stroke-width="1"/>
-          <path class="curve-fill" d="M215,95 C240,124 260,129 308,130 L308,130 L215,130 Z" opacity="0"/>
-          <path class="curve-path" d="M12,130 C60,130 70,40 120,32 C160,26 190,60 215,95 C240,124 260,129 308,130" />
-          <g class="curve-marker">
-            <line x1="222" y1="30" x2="222" y2="130" stroke="#B8502E" stroke-width="1" stroke-dasharray="3 3"/>
-            <circle cx="222" cy="91" r="3.5"/>
-          </g>
-        </svg>
-        <div class="curve-caption"><span>expected loss</span><strong>99.5th pct. tail →</strong></div>
+      <div class="model-panel" role="img" aria-label="A production risk model workflow from methodology through Python and SQL to continuous production use">
+        <div class="model-grid" aria-hidden="true"></div>
+        <div class="model-top"><span>Risk model / production</span><span class="live"><i></i> running</span></div>
+        <div class="model-flow">
+          <div class="model-node"><span>01</span><strong>Methodology</strong><small>risk logic</small></div>
+          <div class="flow-line" aria-hidden="true"><i></i></div>
+          <div class="model-node active"><span>02</span><strong>Python + SQL</strong><small>tested engine</small></div>
+          <div class="flow-line" aria-hidden="true"><i></i></div>
+          <div class="model-node"><span>03</span><strong>Production</strong><small>continuous</small></div>
+        </div>
+        <div class="model-output">
+          <span>system output</span>
+          <strong>10,000s</strong>
+          <small>client risk profiles</small>
+        </div>
       </div>
     </div>
   </section>
@@ -65,11 +89,11 @@
       <div class="section-body">
         <div></div>
         <div class="about-text reveal">
-          <p>I'm a quantitative-minded engineer with a <strong>Master's degree in Engineering Physics from KTH</strong>. For close to three years I've owned a production risk model at a regulated securities firm — from the mathematical methodology to the Python code that runs it, continuously, for tens of thousands of clients.</p>
-          <p>I like being close to both ends of that chain: solving the modelling problem, and building the system that makes it real in production. I'm driven and hands-on, I build my own products outside of work, and I use AI as a natural part of how I write and ship code. I work closely with stakeholders across the business and take ownership seriously.</p>
+          <p>I'm an engineer with a <strong>Master's degree in Engineering Physics from KTH</strong>, working where quantitative analysis, software and financial regulation meet.</p>
+          <p>I turn ambiguous business and regulatory needs into systems that can be tested, operated and trusted. My work spans modelling, data pipelines and system ownership, in close collaboration with compliance, business teams and external vendors. Outside work, I apply the same end-to-end approach to products of my own.</p>
 
           <div class="facts">
-            <div class="fact"><span class="num">~3 yrs</span><span class="label">owning a production risk model, methodology to code</span></div>
+            <div class="fact"><span class="num">Since '23</span><span class="label">owning a production risk model, methodology to code</span></div>
             <div class="fact"><span class="num">10,000s</span><span class="label">client risk profiles calculated continuously</span></div>
             <div class="fact"><span class="num">10B+</span><span class="label">SEK in assets on systems I own end-to-end</span></div>
           </div>
@@ -96,7 +120,7 @@
                 <li><strong>Risk model.</strong> Sole owner of the company's client risk model, from quantitative methodology to production code: designed the model logic, implemented it in Python, connected it to a SQL database and deployed it on Azure. Runs continuously, calculating risk profiles for tens of thousands of clients, with output used directly across the business.</li>
                 <li><strong>Data pipelines.</strong> Built automated data workflows in Python and Pandas that replaced manual work across fee management and financial reporting.</li>
                 <li><strong>System ownership.</strong> End-to-end responsible for a business-critical custody and asset management platform holding over SEK 10 billion in client assets.</li>
-                <li><strong>Stakeholder collaboration.</strong> Works closely with business, compliance and external vendors to translate needs into technical requirements, acting as the main point of contact through delivery.</li>
+                <li><strong>Stakeholder collaboration.</strong> Translate needs from business, compliance and external vendors into technical requirements, acting as the main point of contact through delivery.</li>
                 <li><strong>Regulatory.</strong> Contributed to DORA compliance and a core system migration in an environment governed by KYC, AML and Finansinspektionen.</li>
               </ul>
             </div>
@@ -188,16 +212,16 @@
           <div class="skill-group">
             <h4>Domain</h4>
             <div class="tags">
-              <span class="tag risk">Regulated financial environments</span>
-              <span class="tag risk">DORA</span>
-              <span class="tag risk">KYC</span>
-              <span class="tag risk">AML</span>
-              <span class="tag risk">Custody operations</span>
+              <span class="tag">Regulated financial environments</span>
+              <span class="tag">DORA</span>
+              <span class="tag">KYC</span>
+              <span class="tag">AML</span>
+              <span class="tag">Custody operations</span>
             </div>
           </div>
           <div class="skill-group">
             <h4>Licences</h4>
-            <div class="tags"><span class="tag">SwedSec Specialist (ongoing)</span></div>
+            <div class="tags"><span class="tag">SwedSec Specialist — in progress</span></div>
           </div>
           <div class="skill-group">
             <h4>Languages</h4>
@@ -219,14 +243,26 @@
       </div>
       <div class="section-body">
         <div></div>
-        <div class="project-card reveal">
-          <div>
+        <article class="project-card reveal">
+          <div class="project-copy">
             <p class="tag-line">Founder &amp; developer — ongoing</p>
             <h3>sharpa.se</h3>
-            <p>A fund analysis platform I designed and built end to end. I designed and built the risk and return calculation engine at its core, covering fees, risk and return metrics across portfolios, plus the data layer and interface around it.</p>
+            <p>A fund analysis platform built end to end to make portfolio comparisons clearer. I designed the quantitative engine, data layer and product interface.</p>
+            <ul class="project-points">
+              <li><strong>Quantitative engine</strong><span>Calculates fee-aware risk and return metrics across portfolios.</span></li>
+              <li><strong>Data pipeline</strong><span>Structures fund data for consistent analysis and comparison.</span></li>
+              <li><strong>Product delivery</strong><span>Turns the calculations into an accessible, usable web interface.</span></li>
+            </ul>
+            <div class="project-tags" aria-label="Project areas"><span>Risk &amp; return</span><span>Portfolio analytics</span><span>Data engineering</span><span>Product design</span></div>
           </div>
-          <a class="visit" href="https://sharpa.se" target="_blank" rel="noopener">Visit sharpa.se ↗</a>
-        </div>
+          <div class="project-side">
+            <div class="product-preview" aria-hidden="true">
+              <div class="preview-bar"><i></i><i></i><i></i><span>sharpa.se</span></div>
+              <div class="preview-content"><small>PORTFOLIO OVERVIEW</small><strong>Risk / return</strong><div class="preview-chart"><i></i><i></i><i></i><i></i><i></i></div><div class="preview-metrics"><span>Return <b>12.4%</b></span><span>Risk <b>14.2%</b></span></div></div>
+            </div>
+            <a class="visit" href="https://sharpa.se" target="_blank" rel="noopener">Visit sharpa.se <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
@@ -241,7 +277,6 @@
         <div></div>
         <div class="contact-links reveal">
           <a href="mailto:danielkaroumi5@gmail.com">danielkaroumi5@gmail.com</a>
-          <a href="tel:+46724064003">+46 72-406 40 03</a>
           <a href="https://www.linkedin.com/in/daniel-k-aabb51263/" target="_blank" rel="noopener">LinkedIn</a>
           <span style="color: var(--ink-faint); font-size: 16px;">Stockholm, Sweden</span>
         </div>
@@ -254,7 +289,7 @@
 <footer>
   <div class="wrap">
     <span>© 2026 Daniel Karoumi</span>
-    <span>built with intent, not a template</span>
+    <span>Designed &amp; built by Daniel Karoumi</span>
   </div>
 </footer>
 
