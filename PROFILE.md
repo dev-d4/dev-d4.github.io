@@ -6,7 +6,7 @@
 - +46 72-406 40 03
 - danielkaroumi5@gmail.com
 - Stockholm
-- LinkedIn: https://www.linkedin.com/in/daniel-k-aabb51263/
+- LinkedIn: https://www.linkedin.com/in/daniel-karoumi-aabb51263/
 
 ## Sammanfattning
 

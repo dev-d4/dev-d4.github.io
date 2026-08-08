@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f6f2"/>
+  <defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#dedad1"/></pattern></defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect x="72" y="72" width="64" height="64" rx="32" fill="#14171c"/>
+  <text x="104" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#f7f6f2">DK</text>
+  <text x="72" y="270" font-family="Georgia,serif" font-size="78" fill="#14171c">Daniel Karoumi</text>
+  <text x="76" y="337" font-family="Arial,sans-serif" font-size="27" letter-spacing="3" fill="#23407a">DATA &amp; ANALYTICS ENGINEER — STOCKHOLM</text>
+  <line x1="76" y1="395" x2="1124" y2="395" stroke="#dedad1" stroke-width="2"/>
+  <text x="76" y="458" font-family="Georgia,serif" font-style="italic" font-size="30" fill="#565d66">Sources → Python + SQL → Analytics-ready data</text>
+  <circle cx="1095" cy="101" r="9" fill="#b8502e"/>
+</svg>
