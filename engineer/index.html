@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Karoumi — Software Engineer</title>
+<meta name="description" content="Daniel Karoumi is a software engineer in Stockholm who owns production code end to end — data model, backend, interface and the operations around it. Close to three years at a regulated securities firm, and a fund analysis platform built alone.">
+<meta name="theme-color" content="#F7F6F2">
+<!-- This page covers the same career as the front page and should not compete
+     with it in search. Remove the next line to make it indexable. -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://dev-d4.github.io/engineer/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Daniel Karoumi — Software Engineer">
+<meta property="og:description" content="I own production code end to end — and I'm the one who gets the call when it breaks.">
+<meta property="og:url" content="https://dev-d4.github.io/engineer/">
+<meta property="og:image" content="https://dev-d4.github.io/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Daniel Karoumi, engineer in Stockholm">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Daniel Karoumi — Software Engineer">
+<meta name="twitter:description" content="I build things nobody asked me to build, and I run the ones that matter.">
+<meta name="twitter:image" content="https://dev-d4.github.io/social-card.png">
+<link rel="icon" href="../favicon.svg?v=4" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Inter:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css?v=4">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Daniel Karoumi, home"><span class="brand-mark">DK</span><span>/ stockholm</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span>Menu</span><span class="menu-icon" aria-hidden="true"></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <div id="top"></div>
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Software Engineer — Stockholm</p>
+        <h1>Daniel Karoumi</h1>
+        <p class="thesis">I own production code end to end — and I'm the one who gets the call when it breaks.</p>
+        <p class="lede">M.Sc. Engineering Physics from KTH and close to three years writing and running production Python at a regulated securities firm: a client risk model, the data flows around it, integrations with external financial systems, all shipped through a CI/CD pipeline. On my own time I built <a href="https://sharpa.se" target="_blank" rel="noopener">sharpa.se</a> alone, from the data layer to the interface. Nobody asked me to.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:danielkaroumi5@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/daniel-karoumi-aabb51263/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="model-panel" role="img" aria-label="Sharpa.se built end to end: data layer, calculation engine and interface, running in production">
+        <div class="model-grid" aria-hidden="true"></div>
+        <div class="model-top"><span>sharpa.se / built solo</span><span class="live"><i></i> live</span></div>
+        <div class="model-flow">
+          <div class="model-node"><span>01</span><strong>Data layer</strong><small>Postgres</small></div>
+          <div class="flow-line" aria-hidden="true"><i></i></div>
+          <div class="model-node active"><span>02</span><strong>Engine</strong><small>risk &amp; return</small></div>
+          <div class="flow-line" aria-hidden="true"><i></i></div>
+          <div class="model-node"><span>03</span><strong>Interface</strong><small>Next.js &amp; React</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">01 — About</span>
+        <h2 class="section-title">Vague problem in, working system out</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="about-text reveal">
+          <p>Most of what I've built started as something badly defined. Someone in the business describes a problem in their own words, compliance has a constraint nobody wrote down, and the vendor's system does almost the right thing. My job is to ask the questions that sharpen that into something buildable, and then come back with a system that runs. At <strong>Säkra VP</strong> that's how the client risk model happened: the logic in Python against a SQL database, deployed on Azure, released through a GitHub Actions pipeline that runs the test suite before anything reaches production. It classifies tens of thousands of clients continuously and the business acts on the output directly, so a wrong result is visible to real people — not just to me.</p>
+          <p>I've spent most of my time in the seams between systems: integrations with external financial systems, file deliveries, debugging that spans our own data, the vendor's platform and a third party, where it's rarely obvious up front which of the three is wrong. Working those out is the part I've gotten genuinely good at, and it's most of what makes an unfamiliar codebase tractable.</p>
+          <p><a href="https://sharpa.se" target="_blank" rel="noopener">sharpa.se</a> is the one I built because I wanted it to exist. I couldn't compare funds on risk-adjusted return without doing the arithmetic myself every time, so I built the thing that does it: the ingestion and data model, the risk and return engine on top, the interface in Next.js and React, Postgres underneath, deployed on Vercel. There was nobody to hand the hard parts to. I use <strong>Claude and Codex daily</strong>, which is a large part of why one person can build and maintain it alongside a full-time job — and why I get into code I've never seen before faster than I used to.</p>
+          <div class="facts">
+            <div class="fact"><span class="num">Built solo</span><span class="label">sharpa.se end to end: data layer, engine, interface and deployment</span></div>
+            <div class="fact"><span class="num">10B+ SEK</span><span class="label">in client assets on the platform I set up and own</span></div>
+            <div class="fact"><span class="num">10,000s</span><span class="label">of clients run continuously through a model I built and shipped</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">02 — Experience</span>
+        <h2 class="section-title">What I've built</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="timeline reveal">
+
+          <div class="role">
+            <div class="when">Nov 2023 — Present</div>
+            <div>
+              <p class="who">Product Developer &amp; System Specialist <span>· Säkra VP AB</span></p>
+              <ul>
+                <li><strong>Production code.</strong> Built and own the company's client risk model: the logic in Python against a SQL database, deployed on Azure, with releases going through a GitHub Actions pipeline that runs the test suite first. It classifies tens of thousands of clients continuously.</li>
+                <li><strong>Backend &amp; automation.</strong> Build and maintain automated data flows and backend services in Python and Pandas for what our vendor platform doesn't cover — fee handling, financial reporting and file deliveries. Each one replaced a manual process someone used to run by hand every month.</li>
+                <li><strong>Owning something critical.</strong> Set up and deployed our custody and asset management platform, holding over SEK 10 billion in client assets, and own it end to end: configuration, integrations with external financial systems, upgrades and incidents. Downtime reaches clients the same day, which shapes how I work.</li>
+                <li><strong>Debugging across boundaries.</strong> When something breaks I work out whether it sits in our data, the vendor's system or a third party — rarely obvious which — and follow it through until it's solved.</li>
+                <li><strong>AI in how I work.</strong> Use Claude and Codex daily when building, and have put LLM-based steps into production flows — with a rule-based baseline to compare against before anything ran for real.</li>
+                <li><strong>Turning questions into requirements.</strong> Main point of contact between the business, compliance and external developers. I take problems described in business terms, define what actually needs building, and drive testing and implementation — in an environment governed by DORA, KYC, AML and Finansinspektionen.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="role compact">
+            <div class="when">Jun — Nov 2023</div>
+            <div>
+              <p class="who">Machine Learning Research Engineer <span>· Karolinska University Hospital</span></p>
+              <ul>
+                <li>Built machine learning models and the full pipeline around them, from raw data through processing to validated results.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="role compact">
+            <div class="when">Jan — Jun 2023</div>
+            <div>
+              <p class="who">Master's Thesis — ML &amp; imaging <span>· Karolinska University Hospital</span></p>
+              <ul>
+                <li>Developed algorithms for segmentation and quantitative analysis using advanced mathematical methods.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="role compact">
+            <div class="when">2021</div>
+            <div>
+              <p class="who">Software Developer <span>· CheckHealth (Cnet Svenska AB)</span></p>
+              <ul>
+                <li>Built backend solutions for secure data transfer between connected devices and cloud services, following the FHIR standard.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">03 — Education</span>
+        <h2 class="section-title">KTH Royal Institute of Technology</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="edu-card reveal">
+          <div class="when">2018 — 2023</div>
+          <div>
+            <p class="who">M.Sc. Engineering Physics · B.Sc. Medical Engineering</p>
+            <p class="where">Five years, Stockholm.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">04 — Skills</span>
+        <h2 class="section-title">What I work with</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="skill-groups reveal">
+          <div class="skill-group">
+            <h4>Backend</h4>
+            <div class="tags">
+              <span class="tag">Python — production code</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">Data modelling</span>
+              <span class="tag">ETL &amp; data flows</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Databases</h4>
+            <div class="tags">
+              <span class="tag">SQL</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Supabase</span>
+              <span class="tag">Schema design</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Frontend</h4>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">Interfaces built from scratch</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Ops &amp; tooling</h4>
+            <div class="tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub Actions (CI/CD)</span>
+              <span class="tag">Testing</span>
+              <span class="tag">Azure</span>
+              <span class="tag">Vercel</span>
+              <span class="tag">Linux &amp; bash</span>
+              <span class="tag">Incident management</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>AI</h4>
+            <div class="tags">
+              <span class="tag">Claude</span>
+              <span class="tag">Codex</span>
+              <span class="tag">AI-assisted development</span>
+              <span class="tag">LLMs in production flows</span>
+              <span class="tag">Machine learning</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Domain</h4>
+            <div class="tags">
+              <span class="tag">Business-critical systems in regulated finance</span>
+              <span class="tag">Custody &amp; asset management</span>
+              <span class="tag">Financial integrations</span>
+              <span class="tag">Risk modelling</span>
+              <span class="tag">DORA, KYC &amp; AML</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <div class="tags">
+              <span class="tag">Swedish — native</span>
+              <span class="tag">English — professional fluency</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">05 — Projects</span>
+        <h2 class="section-title">Built on my own time</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <article class="project-card reveal">
+          <div class="project-copy">
+            <p class="tag-line">Founder &amp; developer — ongoing</p>
+            <h3>sharpa.se</h3>
+            <p>A fund analysis platform I designed and built alone, end to end: the ingestion and data model, the risk and return engine on top of it, and the interface in Next.js and React, with Postgres underneath and deployment on Vercel. It lets you compare funds on risk-adjusted return rather than headline performance — which is the comparison I wanted and couldn't get anywhere else. Built and iterated with AI-assisted development, which is most of why one person can carry it the whole way.</p>
+            <ul class="project-points">
+              <li><strong>Ingestion &amp; data model</strong><span>Collects and structures fund data into something comparable.</span></li>
+              <li><strong>Calculation engine</strong><span>My own risk and return logic — the core of the product.</span></li>
+              <li><strong>Interface</strong><span>Next.js and React, turning the numbers into something you can act on.</span></li>
+              <li><strong>AI-assisted build</strong><span>How a single developer keeps building and maintaining all of it.</span></li>
+            </ul>
+            <div class="project-tags" aria-label="Project areas"><span>Built end to end</span><span>Shipped solo</span><span>AI-assisted</span><span>Live</span></div>
+          </div>
+          <div class="project-side">
+            <div class="product-preview" aria-hidden="true">
+              <div class="preview-bar"><i></i><i></i><i></i><span>sharpa.se</span></div>
+              <div class="preview-band">
+                <p class="preview-verdict">Your fund portfolio scores <b>7.3/10</b> on return, fees and risk.</p>
+              </div>
+              <div class="preview-band">
+                <small class="preview-label">Asset allocation</small>
+                <div class="preview-split">
+                  <span class="preview-donut"></span>
+                  <span class="preview-legend">
+                    <span>Equities<b>72%</b></span>
+                    <span>Bonds<b>28%</b></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <a class="visit" href="https://sharpa.se" target="_blank" rel="noopener">Visit sharpa.se <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">06 — Contact</span>
+        <h2 class="section-title">Get in touch</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="contact-links reveal">
+          <a href="mailto:danielkaroumi5@gmail.com">danielkaroumi5@gmail.com</a>
+          <a href="https://www.linkedin.com/in/daniel-karoumi-aabb51263/" target="_blank" rel="noopener">LinkedIn</a>
+          <span style="color: var(--ink-faint); font-size: 16px;">Stockholm, Sweden</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Daniel Karoumi</span>
+    <span>Designed &amp; built by Daniel Karoumi</span>
+  </div>
+</footer>
+
+<script src="../script.js?v=4"></script>
+</body>
+</html>
