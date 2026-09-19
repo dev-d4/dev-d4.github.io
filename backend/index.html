@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Karoumi — Backend Developer (Python)</title>
+<meta name="description" content="Daniel Karoumi is a backend developer in Stockholm who writes and runs production Python at a regulated securities firm — services the business acts on directly, LLM steps checked against a baseline before they are trusted, and a product built alone from zero to real users.">
+<meta name="theme-color" content="#F7F6F2">
+<!-- This page covers the same career as the front page and should not compete
+     with it in search. Remove the next line to make it indexable. -->
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://dev-d4.github.io/backend/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Daniel Karoumi — Backend Developer (Python)">
+<meta property="og:description" content="Production Python I design, ship and get the call about — including the LLM steps, and the checks that make them safe to act on.">
+<meta property="og:url" content="https://dev-d4.github.io/backend/">
+<meta property="og:image" content="https://dev-d4.github.io/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Daniel Karoumi, engineer in Stockholm">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Daniel Karoumi — Backend Developer (Python)">
+<meta name="twitter:description" content="Production Python I design, ship and get the call about — including the LLM steps, and the checks that make them safe to act on.">
+<meta name="twitter:image" content="https://dev-d4.github.io/social-card.png">
+<link rel="icon" href="../favicon.svg?v=4" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Inter:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css?v=4">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Daniel Karoumi, home"><span class="brand-mark">DK</span><span>/ stockholm</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span>Menu</span><span class="menu-icon" aria-hidden="true"></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <div id="top"></div>
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Backend Developer, Python — Stockholm</p>
+        <h1>Daniel Karoumi</h1>
+        <p class="thesis">Production Python I design, ship and get the call about — including the LLM steps, and the checks that make them safe to act on.</p>
+        <p class="lede">M.Sc. Engineering Physics from KTH and close to three years writing and running backend Python at a regulated securities firm, where the business acts on what my code outputs the same day. Agent-first by default: Claude and Codex are how I build. On my own time I took <a href="https://sharpa.se" target="_blank" rel="noopener">sharpa.se</a> from nothing to a live product with real users, frontend included.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:danielkaroumi5@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/daniel-karoumi-aabb51263/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="model-panel" role="img" aria-label="A production document flow: incoming documents, LLM extraction, output checked against a rule-based baseline before downstream use">
+        <div class="model-grid" aria-hidden="true"></div>
+        <div class="model-top"><span>document flow / production</span><span class="live"><i></i> running</span></div>
+        <div class="model-flow">
+          <div class="model-node"><span>01</span><strong>Documents</strong><small>unstructured</small></div>
+          <div class="flow-line" aria-hidden="true"><i></i></div>
+          <div class="model-node active"><span>02</span><strong>Extraction</strong><small>Azure LLM</small></div>
+          <div class="flow-line" aria-hidden="true"><i></i></div>
+          <div class="model-node"><span>03</span><strong>Checked</strong><small>vs baseline</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">01 — About</span>
+        <h2 class="section-title">Backend people act on the same day</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="about-text reveal">
+          <p>At <strong>Säkra VP</strong> I write the backend the business runs on and own it once it is live. The clearest example is the client risk model and the API around it: the logic in Python against a SQL data model, deployed on Azure, released through a GitHub Actions pipeline that runs the test suite before anything reaches production, with logging and alerting on it once it is live. It classifies tens of thousands of clients continuously, and people act on the output directly — so a wrong result is visible the same day, and I am the one who gets the call.</p>
+          <p>The part I find most interesting is getting probabilistic output to where the business can rely on it. I built a production flow where Azure-hosted LLMs read incoming documents and extract the data that downstream processing acts on. Before it was trusted, I built a rule-based baseline and compared the model's output against it. It now runs automatically and has replaced manual document handling. Financial documents, fees and reporting are most of what my code touches.</p>
+          <p>Most of what I have built started as a manual process I noticed and proposed replacing, not a spec I was handed. That is also how <a href="https://sharpa.se" target="_blank" rel="noopener">sharpa.se</a> happened: I wanted it to exist, so I built all of it — data model, engine and a TypeScript and React interface — and shipped it to real users alongside a full-time job. Working agent-first with <strong>Claude and Codex</strong> is a large part of how one person can carry that.</p>
+          <div class="facts">
+            <div class="fact"><span class="num">In production</span><span class="label">LLM document extraction, checked against a baseline first</span></div>
+            <div class="fact"><span class="num">10,000s</span><span class="label">of clients classified by a service I designed and ship</span></div>
+            <div class="fact"><span class="num">0 → live</span><span class="label">sharpa.se, built alone, with real users</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">02 — Experience</span>
+        <h2 class="section-title">What I've built and run</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="timeline reveal">
+
+          <div class="role">
+            <div class="when">Nov 2023 — Present</div>
+            <div>
+              <p class="who">Product Developer &amp; System Specialist <span>· Säkra VP AB</span></p>
+              <ul>
+                <li><strong>Production Python &amp; APIs, owned end to end.</strong> Built the company's client risk model and its API: Python against a SQL data model, deployed on Azure, released through a GitHub Actions pipeline that tests first, with logging and alerting in production. Classifies tens of thousands of clients continuously; the business acts on the output directly.</li>
+                <li><strong>LLM pipelines in production.</strong> Azure-hosted LLMs read incoming documents and extract the data downstream processing acts on. Validated against a rule-based baseline before it was trusted; now runs automatically and replaced manual handling.</li>
+                <li><strong>Data flows &amp; integrations.</strong> Python and Pandas services for fee handling, financial reporting and file deliveries, integrating with vendor systems. Each replaced a monthly manual process — most of them identified and proposed by me.</li>
+                <li><strong>Agent-first by default.</strong> Claude and Codex are part of how I build every day, from first draft to tests.</li>
+                <li><strong>Incidents &amp; ownership.</strong> End-to-end responsible for our custody and asset management platform, SEK 10bn+ in client assets. When something breaks I work out whether it sits in our data, the vendor's system or a third party, and stay on it until it is closed.</li>
+                <li><strong>Regulated environment.</strong> All of it runs under DORA, KYC, AML and Finansinspektionen, with documentation and version control that has to hold up to scrutiny. Project owner in a core system migration.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="role compact">
+            <div class="when">Jun — Nov 2023</div>
+            <div>
+              <p class="who">Machine Learning Research Engineer <span>· Karolinska University Hospital</span></p>
+              <ul>
+                <li>Built and trained deep learning models in PyTorch, and the full pipeline around them — from raw imaging data through processing to validated results.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="role compact">
+            <div class="when">Jan — Jun 2023</div>
+            <div>
+              <p class="who">Master's Thesis — ML &amp; imaging <span>· Karolinska University Hospital</span></p>
+              <ul>
+                <li>Developed algorithms for segmentation and quantitative analysis using advanced mathematical methods.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="role compact">
+            <div class="when">2021</div>
+            <div>
+              <p class="who">Software Developer <span>· CheckHealth (Cnet Svenska AB)</span></p>
+              <ul>
+                <li>Built backend solutions for secure data transfer between connected devices and cloud services, following the FHIR standard.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">03 — Education</span>
+        <h2 class="section-title">KTH Royal Institute of Technology</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="edu-card reveal">
+          <div class="when">2018 — 2023</div>
+          <div>
+            <p class="who">M.Sc. Engineering Physics · B.Sc. Medical Engineering</p>
+            <p class="where">Five years, Stockholm.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">04 — Skills</span>
+        <h2 class="section-title">What I work with</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="skill-groups reveal">
+          <div class="skill-group">
+            <h4>Backend</h4>
+            <div class="tags">
+              <span class="tag">Python — production services</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">ETL &amp; pipelines</span>
+              <span class="tag">Testing</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Data</h4>
+            <div class="tags">
+              <span class="tag">Data modelling</span>
+              <span class="tag">SQL</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Supabase</span>
+              <span class="tag">Schema design</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>AI</h4>
+            <div class="tags">
+              <span class="tag">LLM pipelines in production</span>
+              <span class="tag">Document extraction</span>
+              <span class="tag">Validation against baselines</span>
+              <span class="tag">Agent-first development</span>
+              <span class="tag">Claude</span>
+              <span class="tag">Codex</span>
+              <span class="tag">PyTorch</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Cloud &amp; ops</h4>
+            <div class="tags">
+              <span class="tag">Azure</span>
+              <span class="tag">GitHub Actions (CI/CD)</span>
+              <span class="tag">Git</span>
+              <span class="tag">Vercel</span>
+              <span class="tag">Logging &amp; alerting</span>
+              <span class="tag">Linux &amp; bash</span>
+              <span class="tag">Incident management</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Frontend</h4>
+            <div class="tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">React</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">Shipped the sharpa.se interface, agent-first</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Domain</h4>
+            <div class="tags">
+              <span class="tag">Regulated finance</span>
+              <span class="tag">Financial reporting &amp; fees</span>
+              <span class="tag">Custody &amp; asset management</span>
+              <span class="tag">DORA, KYC &amp; AML</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <div class="tags">
+              <span class="tag">Swedish — native</span>
+              <span class="tag">English — professional fluency</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">05 — Projects</span>
+        <h2 class="section-title">From zero to real users</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <article class="project-card reveal">
+          <div class="project-copy">
+            <p class="tag-line">Founder &amp; developer — ongoing</p>
+            <h3>sharpa.se</h3>
+            <p>A fund analysis platform I took from nothing to a live product on my own: ingestion and data model, the risk and return engine on top, the interface in TypeScript with Next.js and React, Postgres underneath, deployed on Vercel. It compares funds on risk-adjusted return rather than headline performance. It has real users, and I keep developing it alongside a full-time job.</p>
+            <ul class="project-points">
+              <li><strong>Ingestion &amp; data model</strong><span>Collects and structures fund data into one comparable shape.</span></li>
+              <li><strong>Calculation engine</strong><span>My own risk and return logic — the core of the product.</span></li>
+              <li><strong>Interface</strong><span>TypeScript, Next.js and React — the whole product end to end.</span></li>
+              <li><strong>Agent-first build</strong><span>Claude and Codex are how one developer builds and maintains all of it.</span></li>
+            </ul>
+            <div class="project-tags" aria-label="Project areas"><span>Built end to end</span><span>Shipped solo</span><span>Agent-first</span><span>Live</span></div>
+          </div>
+          <div class="project-side">
+            <div class="product-preview" aria-hidden="true">
+              <div class="preview-bar"><i></i><i></i><i></i><span>sharpa.se</span></div>
+              <div class="preview-band">
+                <p class="preview-verdict">Your fund portfolio scores <b>7.3/10</b> on return, fees and risk.</p>
+              </div>
+              <div class="preview-band">
+                <small class="preview-label">Asset allocation</small>
+                <div class="preview-split">
+                  <span class="preview-donut"></span>
+                  <span class="preview-legend">
+                    <span>Equities<b>72%</b></span>
+                    <span>Bonds<b>28%</b></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <a class="visit" href="https://sharpa.se" target="_blank" rel="noopener">Visit sharpa.se <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">06 — Contact</span>
+        <h2 class="section-title">Get in touch</h2>
+      </div>
+      <div class="section-body">
+        <div></div>
+        <div class="contact-links reveal">
+          <a href="mailto:danielkaroumi5@gmail.com">danielkaroumi5@gmail.com</a>
+          <a href="https://www.linkedin.com/in/daniel-karoumi-aabb51263/" target="_blank" rel="noopener">LinkedIn</a>
+          <span style="color: var(--ink-faint); font-size: 16px;">Stockholm, Sweden</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Daniel Karoumi</span>
+    <span>Designed &amp; built by Daniel Karoumi</span>
+  </div>
+</footer>
+
+<script src="../script.js?v=4"></script>
+</body>
+</html>
