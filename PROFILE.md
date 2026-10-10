@@ -20,7 +20,7 @@ mjukvaruutveckling.
 ### Produktutvecklare & Systemspecialist — Säkra AB (nov 2023–nu)
 
 - Äger kundriskmodellen end-to-end: metodik → Python → Azure → SQL, med drift för
-  tiotusentals kunder.
+  runt 10 000 kunder.
 - Bygger automatiserade dataflöden i Python/Pandas.
 - Systemägare för depå- och kapitalförvaltningssystem med över 10 miljarder kr i
   kundtillgångar.
@@ -31,7 +31,7 @@ mjukvaruutveckling.
 
 - ML-modeller och analyspipelines för klassificering av lungsjukdomar.
 
-### Examensarbete, ML & medicinsk bildanalys — Karolinska Universitetssjukhuset (jan–jun 2023)
+### Examensarbete, medicinsk bildanalys — Karolinska Universitetssjukhuset (jan–jun 2023)
 
 - Segmenteringsalgoritmer och kvantitativ analys av lungkärlsmorfologi.
 
